@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgFondo{
+    width: 100%;
+    height: 400px;
+    opacity: 70%;
+}
+
+h1{
+    color: white;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: -300px 0 0 0;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+}
+
+.containerCardMini {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    background-color: rgba(100, 100, 100, 0.493);
+    top: 50%;
+    margin: -80px 0 0 0;
+    position: relative;
+    padding: 30px;
+    border: 2px solid var(--azul-50);
+    border-radius: 20px;
+    gap: 50px;
+    overflow-x: auto;
+}
+
+.containerCardMini::-webkit-scrollbar {
+    height: 15px;
+}
+.containerCardMini::-webkit-scrollbar-track {
+    margin: 0 50px;
+}
+.containerCardMini::-webkit-scrollbar-thumb {
+    background-color: var(--azul-100);
+    border-radius: 100px;
+}

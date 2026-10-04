@@ -1,0 +1,20 @@
+.containerRegistrarse{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.btnRegistrarse{
+    margin: 40px 0 0 0;
+    background-color: var(--gris-150);
+    border: 2px solid var(--azul-50);
+    border-radius: 5px;
+    height: 30px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.btnRegistrarse:hover{
+    background-color: var(--gris-50);
+    color: white;
+    border-color: var(--azul-150);
+    transform: scale(1.05);
+}

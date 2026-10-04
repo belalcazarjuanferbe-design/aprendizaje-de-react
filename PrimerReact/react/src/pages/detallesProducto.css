@@ -1,0 +1,100 @@
+.containerDetallesProducto{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gris-50);
+    color: black;
+    margin: 40px;
+    gap: 50px;
+}
+
+.imgDetallesProducto{
+    display: flex;
+    width: 680px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.containerImgDetalles{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.containerDetalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--gris-150);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid var(--azul-100);
+    box-shadow: 0 0 20px 0 var(--azul-100);
+    min-width: 500px;
+}
+
+.nombreProducto{
+    font-size: 2.5rem;
+    margin: 25px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.precioProducto{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0;
+}
+
+.detallesProducto{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerCaracteristicas {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background-color: var(--gris-150);
+    border: 1px solid var(--azul-100);
+    box-shadow: 0 0 20px 0 var(--azul-100);
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.containerDeCaracteristica{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.text {
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerBtnsCompras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnsDeCompras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gris-150);
+    border: 2px solid var(--azul-100);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    padding: 5px 30px;
+    box-shadow: 0 0 10px 0 var(--azul-100);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.btnsDeCompras:hover{
+    box-shadow: 0 0 20px 0 white;
+    border-color: gray;
+    transform: scale(1.1);
+}

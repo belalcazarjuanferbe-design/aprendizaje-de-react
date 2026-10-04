@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gris-150);
+    padding: 15px 20px;
+    border: 2px solid var(--azul-50);
+    border-radius: 20px;
+    gap: 5px;
+    box-shadow: 0 0 10px 0 var(--azul-150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 300px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.imgProducto{
+    width: 200px;
+    background-color: black;
+    transform: scale(1.15);
+    border-radius: 15px 15px 0 0;
+}
+
+.titulo {
+    font-size: 1.4rem;
+    margin: 10px 0 0 0;
+}
+
+.descripBreve{
+    font-size: 1.2rem;
+    margin: 10px 0 0 0;
+}
+
+.precio{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+}

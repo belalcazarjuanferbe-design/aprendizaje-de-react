@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 200px 20px 10px;
+    background-color: rgb(31, 31, 31);
+    color: var(--gris-150);
+    margin: 20px 0 0 0;
+}
+
+.logoFooter{
+    width: 200px;
+}
+
+.seccionesFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.textPrincipalFooter{
+    font-size: 1rem;
+}
+
+.textSecundarioFooter{
+    font-size: 0.9rem;
+}

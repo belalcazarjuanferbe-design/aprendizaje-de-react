@@ -1,0 +1,21 @@
+.cardCategoria{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    background-color: var(--gris-200);
+    gap: 40px;
+    padding: 2px;
+    border-radius: 20px;
+    border: 2px solid var(--azul-150);
+    box-shadow: 0 0 10px 0 var(--azul-150);
+}
+
+.imgCategoria {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+}

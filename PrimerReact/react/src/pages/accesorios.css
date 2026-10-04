@@ -1,0 +1,29 @@
+.containerRecomendaciones{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 2px solid var(--azul-100);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--gris-150);
+    gap: 30px;
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.containerCards::-webkit-scrollbar{
+    height: 20px;
+}
+.containerCards::-webkit-scrollbar-track{
+    margin: 20px;
+}
+.containerCards::-webkit-scrollbar-thumb{
+    background-color: var(--azul-100);
+    border-radius: 50px;
+}

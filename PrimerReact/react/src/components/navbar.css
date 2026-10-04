@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gris-100);
+    padding: 0 20px 0 10px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+.containerBtnMenu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btnMenu{
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--gris-100);
+    border: 2px solid var(--gris-100);
+    transition: transform 0.2s ease, border 0.5s ease;
+    color: white;
+}
+
+.btnMenu:hover{
+    border-left-color: var(--gris-200);
+    border-right-color: var(--gris-200);
+    transform: scaleX(1.2)  
+}
+
+.containerBuscador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+
+.inputBusqueda {
+    width: 100%;
+    border: 2px solid var(--azul-50);
+    padding: 5px 40px 5px 10px;
+    border-radius: 20px;
+    background-color: var(--gris-100);
+    color: white;
+}
+
+.inputBusqueda:focus{
+    outline: none;
+    background-color: var(--gris-50);
+    border-color: var(--azul-150);
+}
+
+.btnLupa{
+    background-color: transparent;
+    height: 25px;
+    border: 0;
+    border-left: 3px solid var(--azul-50);
+    border-radius: 20px;
+    margin: 0 0 0 -36px;
+    transition: transform 0.2s ease;
+}
+
+.btnLupa:hover {
+    transform: scaleX(1.2);
+    border-color: var(--azul-150);
+}
+
+.containerUsuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.imgUser{
+    width: 20px;
+    height: 18px;
+}
+
+.btnUsuario{
+    background-color: var(--gris-100);
+    border: 2px solid var(--azul-50);
+    padding: 5px;
+    border-radius: 50%;
+    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.btnUsuario:hover{
+    border-color: var(--azul-150);
+    transform: scale(1.1);
+    background-color: var(--gris-50);
+}
+
+.logo{
+    width: 80px;
+}
